@@ -174,8 +174,8 @@
             </div>
             <div class="row js--wp-3">
                 <div class="col span-1-of-4 box">
-                    <img src="ressources/img/lisbon-3.jpg" alt="Lisbon"/>  
-                    <h3>Lisbonne</h3>
+                    <img src="ressources/img/osaka.jpg" alt="Osaka"/>  
+                    <h3>Osaka</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
                         1600+ mangeurs heureux
@@ -186,7 +186,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@omnifood_lx</a>
+                        <a href="#">@omnifood_osaka</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -206,8 +206,8 @@
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <img src="ressources/img/berlin.jpg" alt="Berlin"/>  
-                    <h3>Berlin</h3>
+                    <img src="ressources/img/kyoto.jpg" alt="Kyoto"/>  
+                    <h3>Kyoto</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
                         2300+ mangeurs heureux
@@ -218,7 +218,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@omnifood_berlin</a>
+                        <a href="#">@omnifood_kyoto</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -248,19 +248,19 @@
                 <div class="col span-1-of-3">
                     <blockquote>
                         Omnifood est tout simplement génial! Je viens de lancer une startup qui ne me laisse pas le temps de cuisiner, donc Omnifood est une bouée de sauvetage. Maintenant que je m'y suis habitué, je ne pourrais plus vivre sans mes repas quotidiens!
-                        <cite><img src="ressources/img/customer-1.jpg" alt="Client 1 photo"/>Alberto Duncan</cite>
+                        <cite><img src="ressources/img/customer-1.jpg" alt="Client 1 photo"/>Ekon Hasani</cite>
                     </blockquote>                    
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
                         Des repas bon marché, sains et savoureux, livrés directement chez moi. Nous avons beaucoup de livraison de nourriture ici à Lisbonne, mais personne ne s'approche même d'Omifood. Ma famille et moi sommes tellement amoureux!
-                        <cite><img src="ressources/img/customer-2.jpg" alt="Client 2 photo"/>Joana Silva</cite>
+                        <cite><img src="ressources/img/customer-2.jpg" alt="Client 2 photo"/>Karen Fukuhara</cite>
                     </blockquote>                    
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
                         Je cherchais un service de livraison de nourriture rapide et facile à San Franciso. J'ai essayé beaucoup d'entre eux et j'ai fini avec Omnifood. Meilleur service de livraison de nourriture dans la région de la baie. Continuez ce bon travail!
-                        <cite><img src="ressources/img/customer-3.jpg" alt="Client 3 photo"/>Milton Chapman</cite>
+                        <cite><img src="ressources/img/customer-3.jpg" alt="Client 3 photo"/>Jones Yeats</cite>
                     </blockquote>                    
                 </div>
             </div>        
@@ -343,23 +343,9 @@
                     <h2>Heureux de vous entendre</h2>
                 </div>
                 <div class="row">
-                <form method="post" action="mailer.php" class="contact-form">
+                <form method="post" action="#" class="contact-form">
                     <div class="row">
-                        <?php 
-                            if($_GET['success'] == 1) {
-                                echo "<div class=\"form-messages success\">Merci! Votre message a été envoyé."+$name+"</div>";
-                            } 
-
-                            if($_GET['success'] == -1) {
-                                echo "<div class=\"form-messages error\">Oups, une erreur s'est produite. Veuillez réessayer!</div>";
-                            } 
-                        ?>
-                    </div>    
-                    
-                    
-                    
-                    <div class="row">
-                                            
+                        
                         <div class="col span-1-of-3">
                             <label for="name">Nom</label>
                         </div>
@@ -409,7 +395,7 @@
                             <label>&nbsp;</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="submit" Value="Envoyer!"/>
+                            <input type="submit" value="Envoyer!"/>
                         </div>
                     </div>
                 </form>

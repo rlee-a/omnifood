@@ -104,8 +104,9 @@ $('a[href*="#"]')
     });
 
         /* Map leaf + openstreet - gmap alternative */
-    var lat = 47.0095;
-    var lon = 7.2414;
+
+    var lat = 35.70487;
+    var lon = 139.71790;
     var macarte = null;
     // Fonction d'initialisation de la carte
     function initMap() {
